@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Compass</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="compass.css">
+    <script src="jquery.min.js"></script>
+    <script src="compass.js"></script>
+    <style>
+      body, canvas, div {
+          margin: 0px;
+          padding: 0px;
+          overflow: hidden;
+          background-color:#333;
+      }
+      #canvas {
+      }
+      #msg {
+      display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="canvas">
+    </canvas>
+    <div id="msg">
+    </div>
+
+    <script>
+      $(document).ready(function() {
+        setup();
+      });
+    </script>
+  </body>
+</html>
